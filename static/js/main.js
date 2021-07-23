@@ -281,7 +281,7 @@ $(document).ready(function(){
                 else
                 {
                     pages_length += 1;
-                    for(let z_index=pages_length, id_no=1; z_index > 3; z_index--)
+                    for(let z_index=pages_length, id_no=1; z_index > 3; z_index--, id_no++)
                     {
                         $("#right_page_"+id_no).css({"z-index" : (-1*z_index)});
                     }
