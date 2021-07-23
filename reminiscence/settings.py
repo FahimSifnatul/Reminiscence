@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-@8keaa-#z3heln4p&uf&s8j70zovy5-g36(m561568c&xj6re7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
+
+ALLOWED_HOSTS = ['reminiscence-online-diary.herokuapp.com']
 
 # Application definition
 
